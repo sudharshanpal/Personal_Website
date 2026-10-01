@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sudharshan Palaniyappan</title>
+  <meta name="description" content="Sudharshan Palaniyappan, Computer Science student at the University of Toronto. Software engineering, data, and the occasional chess game.">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231d1c1a'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='17' fill='%23f5f2ea' text-anchor='middle'%3ESP%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top" aria-label="Sudharshan Palaniyappan, back to top">Sudharshan P.</a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-label">Menu</span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#offline">Off the clock</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ INTRO ============ -->
+    <section class="intro wrap" id="top" aria-labelledby="intro-title">
+      <div class="intro-text">
+        <p class="eyebrow">Computer Science · University of Toronto</p>
+        <h1 id="intro-title">Hi, I'm Sudharshan.</h1>
+        <p class="lede">
+          I study Computer Science at U of T (co-op, with a minor in Statistics). Most of what I've
+          worked on sits somewhere between backend engineering and data: Spring Boot APIs at
+          TD Securities, risk models at OSFI, and a few hackathon and course projects along the way.
+        </p>
+        <p class="lede lede-small">
+          When I'm not doing that, I'm usually in the middle of a chess game or looking for people
+          to play basketball with.
+        </p>
+
+        <ul class="link-row" aria-label="Profiles and resume">
+          <!-- PLACEHOLDER: drop your resume PDF at assets/resume.pdf -->
+          <li><a class="btn btn-solid" href="assets/resume.pdf">Resume <span aria-hidden="true">↓</span></a></li>
+          <!-- PLACEHOLDER: replace with your GitHub URL -->
+          <li><a class="btn" href="https://github.com/YOUR-GITHUB-USERNAME" rel="noopener">GitHub</a></li>
+          <!-- PLACEHOLDER: replace with your LinkedIn URL -->
+          <li><a class="btn" href="https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE" rel="noopener">LinkedIn</a></li>
+          <!-- PLACEHOLDER: replace with your Chess.com profile URL -->
+          <li><a class="btn" href="https://www.chess.com/member/YOUR-CHESS-USERNAME" rel="noopener">Chess.com</a></li>
+        </ul>
+      </div>
+
+      <aside class="lately" aria-labelledby="lately-title">
+        <h2 id="lately-title" class="lately-title">Lately</h2>
+        <ul>
+          <li><span class="lately-k">Just finished</span> A summer as a Software Engineer Intern at TD Securities (May–Aug 2026).</li>
+          <li><span class="lately-k">Back at</span> U of T for another term.</li>
+          <li><span class="lately-k">Looking for</span> <span class="ph">[Add: what you're looking for, e.g. "Summer 2027 SWE internships"]</span></li>
+          <li><span class="lately-k">Reading / building</span> <span class="ph">[Add: something you're into right now]</span></li>
+        </ul>
+      </aside>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section wrap" id="about" aria-labelledby="about-title">
+      <header class="section-head">
+        <span class="section-num" aria-hidden="true">01</span>
+        <h2 id="about-title">About</h2>
+      </header>
+
+      <div class="about-grid">
+        <div class="prose">
+          <p>
+            I started at the University of Toronto in 2023 and picked up a Statistics minor alongside
+            CS. That combination ended up shaping most of my work: about half of it has been building
+            software, and the other half has been trying to figure out what a dataset is actually saying.
+          </p>
+          <p>
+            Over the last couple of years I've written REST APIs for a trading floor, built an NLP
+            pipeline at a federal regulator, shipped forms for an immigration site, and taught Python
+            and C++ to 500+ students one summer. Different places, but a lot of the same habits:
+            write the test, check the numbers, and see if the slow part can be made less slow.
+          </p>
+          <p>
+            <span class="ph">[Add: a sentence or two in your own words, e.g. how you got into programming, or what kind of problems you enjoy most.]</span>
+          </p>
+        </div>
+
+        <dl class="facts">
+          <div><dt>Based in</dt><dd>Toronto, ON</dd></div>
+          <div><dt>Studying</dt><dd>HBSc Computer Science, Minor in Statistics</dd></div>
+          <div><dt>Usually writing</dt><dd>Java, Python, SQL</dd></div>
+          <div><dt>Away from a screen</dt><dd>Chess, basketball</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section wrap" id="experience" aria-labelledby="experience-title">
+      <header class="section-head">
+        <span class="section-num" aria-hidden="true">02</span>
+        <h2 id="experience-title">Experience</h2>
+      </header>
+
+      <ol class="roles">
+        <!-- TD -->
+        <li class="role role-featured">
+          <div class="role-meta">
+            <p class="role-dates"><time datetime="2026-05">May 2026</time> – <time datetime="2026-08">Aug 2026</time></p>
+            <p class="role-place">Toronto, ON</p>
+          </div>
+          <div class="role-body">
+            <h3 class="role-title">Software Engineer Intern <span class="at">at</span> TD Securities</h3>
+            <p class="role-lede">
+              Mostly backend work. I built REST APIs in Spring Boot that support 21 trading-floor
+              businesses, and picked up some React along the way for a governance workflow.
+            </p>
+            <ul class="role-points">
+              <li>Added an approval process for control changes to a governance workflow, on the React side.</li>
+              <li>Wrote automated integration tests that brought coverage to 95%+, so regressions get caught before they ship.</li>
+              <li>Deployed SQL Server and Databricks changes that feed the alerting for ingestion pipelines.</li>
+              <li>Replaced a legacy Python script for SLA report generation with backend data retrieval.</li>
+            </ul>
+
+            <figure class="speedup" aria-labelledby="speedup-cap">
+              <figcaption id="speedup-cap">SLA report generation, before and after</figcaption>
+              <div class="bar-row">
+                <span class="bar-label">Legacy script</span>
+                <span class="bar bar-before" style="--w:100%"></span>
+                <span class="bar-value">~1 min</span>
+              </div>
+              <div class="bar-row">
+                <span class="bar-label">Backend retrieval</span>
+                <span class="bar bar-after" style="--w:5%"></span>
+                <span class="bar-value">~3 s</span>
+              </div>
+            </figure>
+
+            <p class="tags" aria-label="Tools used">Java · Spring Boot · React · SQL Server · Databricks</p>
+          </div>
+        </li>
+
+        <!-- OSFI -->
+        <li class="role">
+          <div class="role-meta">
+            <p class="role-dates"><time datetime="2025-09">Sept 2025</time> – <time datetime="2025-12">Dec 2025</time></p>
+            <p class="role-place">Toronto, ON</p>
+          </div>
+          <div class="role-body">
+            <h3 class="role-title">Risk Analyst Co-op <span class="at">at</span> OSFI</h3>
+            <p class="role-sub">Office of the Superintendent of Financial Institutions</p>
+            <p class="role-lede">
+              A data-heavy term. I worked on risk assessments covering 400+ financial institutions and
+              1,200+ pension plans, mostly in R, Python, and SQL.
+            </p>
+            <ul class="role-points">
+              <li>Built an NLP entity-matching pipeline that cut internal database search effort by 80%.</li>
+              <li>Developed predictive risk models to evaluate FRFI exposure, and researched the risk factors behind them.</li>
+              <li>Analyzed datasets to surface risk trends for the supervision teams.</li>
+            </ul>
+            <p class="tags" aria-label="Tools used">R · Python · SQL · NLP</p>
+          </div>
+        </li>
+
+        <!-- Riipen -->
+        <li class="role">
+          <div class="role-meta">
+            <p class="role-dates"><time datetime="2025-10">Oct 2025</time> – <time datetime="2025-12">Dec 2025</time></p>
+            <p class="role-place">Remote</p>
+          </div>
+          <div class="role-body">
+            <h3 class="role-title">Software Engineer Intern <span class="at">at</span> Riipen Networks</h3>
+            <p class="role-lede">
+              Built immigration eligibility forms in JavaScript and Node.js that score answers in real time,
+              and fit them into the client's existing WordPress site instead of standing up something new,
+              which kept costs down.
+            </p>
+            <ul class="role-points">
+              <li>Set up a scheduled cron job to refresh immigration rules, so nobody has to update them by hand every month.</li>
+            </ul>
+            <p class="tags" aria-label="Tools used">JavaScript · Node.js · WordPress · cron</p>
+          </div>
+        </li>
+
+        <!-- Instructor -->
+        <li class="role">
+          <div class="role-meta">
+            <p class="role-dates"><time datetime="2025-05">May 2025</time> – <time datetime="2025-08">Aug 2025</time></p>
+            <p class="role-place">Toronto, ON</p>
+          </div>
+          <div class="role-body">
+            <h3 class="role-title">Coding and AI Instructor <span class="at">at</span> University of Toronto</h3>
+            <p class="role-lede">
+              Taught 500+ students Python and C++ through AI projects with real-world applications, and helped
+              build 20 lesson modules with the team using Agile cycles.
+            </p>
+            <p class="tags" aria-label="Tools used">Python · C++ · teaching</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section wrap" id="projects" aria-labelledby="projects-title">
+      <header class="section-head">
+        <span class="section-num" aria-hidden="true">03</span>
+        <h2 id="projects-title">Projects</h2>
+      </header>
+
+      <article class="project project-lead" aria-labelledby="p1-title">
+        <p class="project-kicker">With Manulife</p>
+        <h3 id="p1-title" class="project-title">AI-Powered Emerging Risk Intelligence Engine</h3>
+        <div class="project-cols">
+          <div class="prose">
+            <p>
+              The question was how to turn geopolitical and economic signals into something useful for
+              reinsurance. I designed an Azure data pipeline that ingests, normalizes, and classifies
+              external risk data, then hooked up an Azure OpenAI engine to classify severity and assess
+              mortality and longevity impacts.
+            </p>
+            <p>
+              A lot of the work was upfront thinking: defining a risk taxonomy and deciding which of the
+              20+ data sources mattered most for automated early warnings.
+            </p>
+          </div>
+          <dl class="project-spec">
+            <div><dt>Stack</dt><dd>Python, Azure, Azure OpenAI, SQL, Power BI</dd></div>
+            <div><dt>My part</dt><dd>Pipeline design, OpenAI integration, taxonomy</dd></div>
+            <div><dt>Links</dt><dd><span class="ph">[Add a link or remove this row]</span></dd></div>
+          </dl>
+        </div>
+      </article>
+
+      <div class="project-pair">
+        <article class="project" aria-labelledby="p2-title">
+          <p class="project-kicker">BramHacks · Top 5</p>
+          <h3 id="p2-title" class="project-title">Geospatial Emergency Bus Stop Locator</h3>
+          <p>
+            A React + Leaflet web app that finds emergency bus stops within Brampton census tracts, using
+            GTFS-Realtime transit data so the information is current. I led the team, and we finished in
+            the top 5.
+          </p>
+          <p>
+            The distance check uses the Haversine formula to work out how close you are to each stop:
+          </p>
+          <figure class="code">
+            <figcaption>The core idea, simplified</figcaption>
+<pre><code><span class="c">// great-circle distance in km</span>
+<span class="k">const</span> R = 6371;
+<span class="k">const</span> dLat = rad(lat2 - lat1);
+<span class="k">const</span> dLon = rad(lon2 - lon1);
+<span class="k">const</span> a = Math.sin(dLat / 2) ** 2 +
+  Math.cos(rad(lat1)) * Math.cos(rad(lat2)) *
+  Math.sin(dLon / 2) ** 2;
+<span class="k">return</span> 2 * R * Math.asin(Math.sqrt(a));</code></pre>
+          </figure>
+          <p class="tags">React · Leaflet · Node.js · PostgreSQL · GTFS-Realtime</p>
+          <!-- PLACEHOLDER: replace with repo/demo URL -->
+          <p><a class="text-link" href="https://github.com/YOUR-GITHUB-USERNAME/REPO-NAME" rel="noopener">View the code <span aria-hidden="true">→</span></a></p>
+        </article>
+
+        <article class="project project-narrow" aria-labelledby="p3-title">
+          <p class="project-kicker">Machine learning</p>
+          <h3 id="p3-title" class="project-title">Cardiovascular Disease Prediction Model</h3>
+          <p>
+            A Scikit-learn model that predicts cardiovascular disease with 83% accuracy. Most of the
+            time went into cleaning, preprocessing, and feature selection with pandas and NumPy, and then
+            comparing XGBoost against Random Forest to see where each one did better.
+          </p>
+          <p class="stat"><span class="stat-n">83%</span> <span class="stat-l">accuracy</span></p>
+          <p class="tags">Python · Scikit-learn · pandas · NumPy · Streamlit</p>
+          <!-- PLACEHOLDER: replace with repo/demo URL -->
+          <p><a class="text-link" href="https://github.com/YOUR-GITHUB-USERNAME/REPO-NAME" rel="noopener">View the code <span aria-hidden="true">→</span></a></p>
+        </article>
+      </div>
+
+      <p class="more-note">
+        More on <a href="https://github.com/YOUR-GITHUB-USERNAME" rel="noopener">GitHub</a>.
+        <span class="ph">[Add: any other projects you want listed here]</span>
+      </p>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section wrap" id="skills" aria-labelledby="skills-title">
+      <header class="section-head">
+        <span class="section-num" aria-hidden="true">04</span>
+        <h2 id="skills-title">Skills</h2>
+      </header>
+
+      <div class="skills">
+        <p class="skills-note">
+          This past summer my day-to-day was Java with Spring Boot, React, SQL Server, and Databricks.
+          Before that, mostly Python, R, and SQL.
+        </p>
+        <dl class="skill-list">
+          <div>
+            <dt>Languages</dt>
+            <dd>Python, Java, SQL, R, JavaScript, C, C++</dd>
+          </div>
+          <div>
+            <dt>Frameworks &amp; libraries</dt>
+            <dd>Spring Boot, React, Node.js, Django, Swing, JUnit, pandas, NumPy, Scikit-learn, Matplotlib, Streamlit, BeautifulSoup, dplyr, rvest</dd>
+          </div>
+          <div>
+            <dt>Tools</dt>
+            <dd>Git, GitHub Actions, Docker, Postman, Azure, Databricks, Bash</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section class="section wrap" id="education" aria-labelledby="education-title">
+      <header class="section-head">
+        <span class="section-num" aria-hidden="true">05</span>
+        <h2 id="education-title">Education</h2>
+      </header>
+
+      <div class="edu">
+        <div class="edu-main">
+          <h3 class="edu-school">University of Toronto</h3>
+          <p>Honours Bachelor of Science in Computer Science (Co-op), Minor in Statistics</p>
+          <p class="muted">
+            <time datetime="2023-09">Sept 2023</time> – present
+            · Expected graduation <span class="ph">[Add: month year]</span>
+          </p>
+        </div>
+        <div class="edu-courses">
+          <h4>Coursework</h4>
+          <ul class="course-list">
+            <li>Data Structures &amp; Algorithms</li>
+            <li>Software Design</li>
+            <li>Operating Systems</li>
+            <li>Machine Learning</li>
+            <li>Artificial Intelligence</li>
+            <li>Probability &amp; Statistics</li>
+            <li>Linear Algebra</li>
+          </ul>
+          <p class="muted small"><span class="ph">[Optional: clubs, TA roles, awards, or anything else from school]</span></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ OFF THE CLOCK ============ -->
+    <section class="section wrap" id="offline" aria-labelledby="offline-title">
+      <header class="section-head">
+        <span class="section-num" aria-hidden="true">06</span>
+        <h2 id="offline-title">Off the clock</h2>
+      </header>
+
+      <p class="offline-intro">
+        The resume covers the work. This is the rest of it.
+      </p>
+
+      <div class="offline-grid">
+        <article class="interest interest-chess" aria-labelledby="chess-title">
+          <svg class="mini-board" viewBox="0 0 8 8" aria-hidden="true" focusable="false">
+            <defs>
+              <pattern id="sq" width="2" height="2" patternUnits="userSpaceOnUse">
+                <rect class="sq-dark" x="1" y="0" width="1" height="1"/>
+                <rect class="sq-dark" x="0" y="1" width="1" height="1"/>
+              </pattern>
+            </defs>
+            <rect class="sq-light" width="8" height="8"/>
+            <rect width="8" height="8" fill="url(#sq)"/>
+          </svg>
+          <div>
+            <h3 id="chess-title">Chess</h3>
+            <p>
+              Chess is what I reach for when I want to think hard about something that isn't code.
+              <span class="ph">[Add: how long you've played, online vs. over the board, a game you still think about]</span>
+            </p>
+            <p class="muted">
+              Favourite time control: <span class="ph">[Add]</span>
+              · Usual opening: <span class="ph">[Add]</span>
+            </p>
+            <p>If you play, send me a challenge.</p>
+            <!-- PLACEHOLDER: replace with your Chess.com profile URL -->
+            <a class="btn btn-solid" href="https://www.chess.com/member/YOUR-CHESS-USERNAME" rel="noopener">
+              Add me on Chess.com <span aria-hidden="true">→</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="interest interest-ball" aria-labelledby="ball-title">
+          <h3 id="ball-title">Basketball</h3>
+          <p>
+            Basketball is how I get away from a screen. After a week of sitting in front of an IDE,
+            a pickup game is a pretty good reset, and I'm in whenever there are enough people to run one.
+          </p>
+          <p class="muted">
+            <span class="ph">[Add: where you usually play, your position, or a team you follow]</span>
+          </p>
+        </article>
+      </div>
+
+      <div class="later" aria-labelledby="later-title">
+        <h3 id="later-title" class="later-title">More to come</h3>
+        <!--
+          PLACEHOLDER PHOTOS: replace each .photo-slot with
+          <figure class="photo"><img src="assets/photo-1.jpg" alt="Describe the photo" width="600" height="450" loading="lazy"><figcaption>Caption</figcaption></figure>
+        -->
+        <div class="photo-row">
+          <div class="photo-slot"><span>[Photo placeholder]</span></div>
+          <div class="photo-slot photo-slot-tall"><span>[Photo placeholder]</span></div>
+          <div class="photo-slot"><span>[Photo placeholder]</span></div>
+        </div>
+        <p class="muted small"><span class="ph">[Add: other interests, places you've been, music, food, whatever you want people to know]</span></p>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section wrap contact" id="contact" aria-labelledby="contact-title">
+      <header class="section-head">
+        <span class="section-num" aria-hidden="true">07</span>
+        <h2 id="contact-title">Contact</h2>
+      </header>
+
+      <div class="contact-body">
+        <p class="contact-lede">
+          Email is the easiest way to reach me. I'm happy to talk about internships, projects, or a
+          rematch.
+        </p>
+        <p class="email-line">
+          <a class="email" href="mailto:sudharshanpalaniyappan12@gmail.com">sudharshanpalaniyappan12@gmail.com</a>
+          <button class="copy-btn" type="button" data-copy="sudharshanpalaniyappan12@gmail.com">Copy</button>
+          <span class="copy-status" role="status" aria-live="polite"></span>
+        </p>
+        <ul class="contact-links">
+          <li><a href="https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://github.com/YOUR-GITHUB-USERNAME" rel="noopener">GitHub</a></li>
+          <li><a href="https://www.chess.com/member/YOUR-CHESS-USERNAME" rel="noopener">Chess.com</a></li>
+          <li><a href="assets/resume.pdf">Resume (PDF)</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>© <span id="year">2026</span> Sudharshan Palaniyappan</p>
+      <p class="muted">Written by hand in HTML, CSS, and a bit of JavaScript.</p>
+      <p><a href="#top">Back to top <span aria-hidden="true">↑</span></a></p>
+    </div>
+  </footer>
+</body>
+</html>
